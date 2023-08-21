@@ -3,7 +3,7 @@
 export default function Navbar() {
 
     return(
-        <nav className="flex w-full justify-evenly">
+        <nav className="flex justify-between mx-[20rem]">
             <div className="text-center flex items-center">
                 <h1>Logo</h1>
             </div>

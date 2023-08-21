@@ -58,6 +58,11 @@ nav li a:hover{
 nav li a:hover > .dot{
   opacity:100%;
   top: 70%;
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+section{
+  margin-left: 20rem;
+  margin-right: 20rem;
 }

@@ -1,4 +1,6 @@
 import Navbar from "./templates/navbar"
+import Homepage from "./templates/homepage"
+import Hero from "./organisms/hero"
 
 
 export {
@@ -7,7 +9,8 @@ export {
     /*--- MOLECULES ---*/ 
 
     /*--- ORGANISMS ---*/ 
-
+    Hero,
     /*--- TEMPLATES ---*/ 
-    Navbar
+    Navbar,
+    Homepage
 }
