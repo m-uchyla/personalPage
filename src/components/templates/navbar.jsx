@@ -1,35 +1,35 @@
-
+import logo from "../../assets/logo.png";
 
 export default function Navbar() {
 
     return(
         <nav className="flex justify-between mx-[20rem]">
-            <div className="text-center flex items-center">
-                <h1>Logo</h1>
+            <div className="flex items-center">
+                <img src={logo} className="h-[40px]"/>
             </div>
             <div>
                 <ul className="flex">
                     <li>   
                         <a href="/">
-                            Link
+                            O mnie
                             <div className="dot"></div>
                         </a>
                     </li>
                     <li>
                         <a href="/">
-                            Link
+                            Umiejętności
                             <div className="dot"></div>
                         </a>
                     </li>
                     <li>
                         <a href="/">
-                            Link
+                            Projekty
                             <div className="dot"></div>
                         </a>
                     </li>
                     <li>
                         <a href="/">
-                            Link
+                            Kontakt
                             <div className="dot"></div>
                         </a>
                     </li>
