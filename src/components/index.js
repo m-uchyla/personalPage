@@ -3,6 +3,7 @@ import Homepage from "./templates/homepage"
 import Hero from "./organisms/hero"
 import Contact from "./organisms/contact"
 import Card from "./atoms/card"
+import Footer from "./templates/footer"
 
 export {
     /*--- ATOMS ---*/ 
@@ -14,5 +15,6 @@ export {
     Contact,
     /*--- TEMPLATES ---*/ 
     Navbar,
-    Homepage
+    Homepage,
+    Footer
 }

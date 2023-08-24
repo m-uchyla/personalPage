@@ -1,11 +1,12 @@
 import '../styles/globals.css';
-import { Navbar, Homepage } from '../components';
+import { Navbar, Homepage, Footer } from '../components';
 
 function App() {
   return (
     <>
       <Navbar />
       <Homepage />
+      <Footer />
     </>
   );
 }

@@ -24,6 +24,10 @@ body {
   border: 1px red dashed;
 } */
   
+section{
+  margin-bottom: 10rem;
+}
+
 nav ul {
   list-style: none;
 }
