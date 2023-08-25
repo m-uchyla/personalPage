@@ -1,4 +1,5 @@
 import { Card } from "../"
+import { BsTelephone } from "react-icons/bs"
 
 export default function Contact() {
     return(
@@ -8,7 +9,8 @@ export default function Contact() {
                 <h3 className="text-tsecondary">Kontakt do mnie</h3>
             </div>
             <div className="grid grid-cols-3 gap-5">
-                    <Card className={""}>
+                    <Card className={"flex"}>
+                        <BsTelephone size={40} color="rgb(41 64 125)"/>
                         <h4>Test 1</h4>
                     </Card>
                     <Card className={""}>
