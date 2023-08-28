@@ -73,3 +73,24 @@ section{
   margin-left: 20rem;
   margin-right: 20rem;
 }
+
+.hoverCard{
+  transform: translateY(0rem);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.hoverCard:hover{
+  transform: translateY(-0.25rem);
+  transition: 0.5s;
+}
+
+/* @keyframe in{
+  from: transform: translateY(0rem);
+  to: transform: translateY(-0.25rem);
+}
+
+@keyframe out{
+  from: transform: translateY(-0.25rem);
+  to: transform: translateY(0rem);
+} */

@@ -2,7 +2,7 @@
 export default function Card(props){
     
     return (
-        <div className={` relative mt-[6px]`}>
+        <div className={` relative mt-[6px] hoverCard`}>
             <div className={` ${props.className} sm:p-8 p-6 bg-twhite rounded-[25px] absolute w-full top-[-6px] left-0 flex-1 z-[10]`}>
                 {props.children}
             </div>
