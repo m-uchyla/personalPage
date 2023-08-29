@@ -84,13 +84,3 @@ section{
   transform: translateY(-0.25rem);
   transition: 0.5s;
 }
-
-/* @keyframe in{
-  from: transform: translateY(0rem);
-  to: transform: translateY(-0.25rem);
-}
-
-@keyframe out{
-  from: transform: translateY(-0.25rem);
-  to: transform: translateY(0rem);
-} */
