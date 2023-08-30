@@ -1,5 +1,5 @@
 import { Card } from "../"
-import { BsTelephone, BsGithub, BsLinkedin, BsEnvelopeAt, BsEnvelopeAtFill, BsTelephoneFill, BsChevronDoubleRight } from "react-icons/bs"
+import { BsGithub, BsLinkedin, BsEnvelopeAtFill, BsTelephoneFill } from "react-icons/bs"
 import React, {useState} from 'react'
 import ReactCardFlip from 'react-card-flip';
 
