@@ -1,3 +1,5 @@
+import { education, experience } from "../../constants"
+
 
 export default function Experience() {
     return(
@@ -11,7 +13,10 @@ export default function Experience() {
                     <p>Technologie</p>
                 </div>
                 <div className="flex-1">
-                    <p>Szkoła</p>
+                    <p>Szkoła:</p>
+                    {experience.map((exp, index) => (
+                        <p>{exp.company}</p>
+                    ))}
                 </div>
             </div>
         </section>
