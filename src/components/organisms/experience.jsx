@@ -8,14 +8,19 @@ export default function Experience() {
                 <h2 className="text-[24px] font-[600] text-tprimary">Doświadczenie</h2>
                 <h3 className="text-tsecondary">W tym się specjalizuje</h3>
             </div>
-            <div className="flex">
+            <div className="flex justify-between gap-10">
                 <div className="flex-1">
                     <p>Technologie</p>
                 </div>
                 <div className="flex-1">
-                    <p>Szkoła:</p>
                     {experience.map((exp, index) => (
-                        <p>{exp.company}</p>
+                        <div key={"exp"+index} className="flex mb-4">
+                            <p className="flex-1">{exp.date}</p>
+                            <div className="flex-1">
+                                <p className="font-[600]">{exp.company}</p>
+                                <p>{exp.position}</p>
+                            </div>
+                        </div>
                     ))}
                 </div>
             </div>
